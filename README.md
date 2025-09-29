@@ -20,3 +20,5 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app:app --reload
+
+![CI](https://github.com/jitesh1995/02-sre-ci-cd-pipeline/actions/workflows/ci.yml/badge.svg)
